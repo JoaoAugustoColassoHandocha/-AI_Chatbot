@@ -20,6 +20,7 @@ if user_message:
     
     st.chat_message('user').write(user_message)
     question = {'role': 'user', 'content': user_message}
+    message_list.append(question)
     
     ai_response = 'Você perguntou: ' + user_message
     
