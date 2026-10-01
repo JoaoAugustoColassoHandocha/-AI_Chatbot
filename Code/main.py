@@ -41,7 +41,7 @@ if user_message:
         
     )
     
-    ai_response = model_response.choices[0].message.ontent
+    ai_response = model_response.choices[0].message.content
     
     st.chat_message('assistant').write(ai_response)
     response = {'role': 'assistant', 'content': ai_response}
