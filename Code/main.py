@@ -30,7 +30,11 @@ if user_message:
     question = {'role': 'user', 'content': user_message}
     st.session_state['message_list'].append(question)
     
-    ai_response = Ai_model.chat.completions.create()
+    ai_response = Ai_model.chat.completions.create(
+        
+        messages = st.session_state['message_list']
+        
+    )
     st.chat_message('assistant').write(ai_response)
     response = {'role': 'assistant', 'content': ai_response}
     st.session_state['message_list'].append(response)
