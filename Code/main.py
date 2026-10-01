@@ -23,5 +23,5 @@ if user_message:
     st.session_state['message_list'].append(question)
     
     ai_response = 'Você perguntou: ' + user_message
-    
     st.chat_message('assistant').write(ai_response)
+    response = {'role': 'assistant', 'content': ai_response}
