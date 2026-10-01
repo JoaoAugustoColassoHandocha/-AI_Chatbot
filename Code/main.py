@@ -19,7 +19,7 @@ user_message = st.chat_input('Escreva sua mensagem aqui...')
 for message in st.session_state['message_list']:
     
     sender = message['role']
-    message_text = 
+    message_text = message['content']
     st.chat_message(sender).write(message_text)
 
 if user_message:
