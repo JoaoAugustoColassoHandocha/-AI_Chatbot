@@ -33,7 +33,7 @@ if user_message:
     ai_response = Ai_model.chat.completions.create(
         
         messages = st.session_state['message_list'],
-        model = ''
+        model = 'gemini-flash-lite-latest'
         
     )
     st.chat_message('assistant').write(ai_response)
