@@ -26,3 +26,5 @@ if user_message:
     st.chat_message('user').write(user_message)
     
     ai_response = 
+    
+    st.chat_message('assistant').write(ai_response)
