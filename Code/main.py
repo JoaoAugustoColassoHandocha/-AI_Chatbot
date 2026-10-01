@@ -37,7 +37,7 @@ if user_message:
         
     )
     
-    ai_response = 
+    ai_response = 'texto'
     
     st.chat_message('assistant').write(ai_response)
     response = {'role': 'assistant', 'content': ai_response}
