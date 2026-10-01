@@ -24,3 +24,5 @@ user_message = st.chat_input('Escreva sua mensagem aqui...')
 if user_message:
     
     st.chat_message('user').write(user_message)
+    
+    ai_response = 
