@@ -12,4 +12,6 @@ Import library: pip install streamlit openai
 
 '''
 
-import 
+import streamlit as st
+import openai as op
+
