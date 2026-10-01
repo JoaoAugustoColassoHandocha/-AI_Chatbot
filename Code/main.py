@@ -16,6 +16,10 @@ if not 'message_list' in st.session_state:
 
 user_message = st.chat_input('Escreva sua mensagem aqui...')
 
+for message in st.session_state['message_list']:
+    
+    
+
 if user_message:
     
     st.chat_message('user').write(user_message)
