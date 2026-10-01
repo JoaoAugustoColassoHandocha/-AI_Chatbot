@@ -18,7 +18,9 @@ user_message = st.chat_input('Escreva sua mensagem aqui...')
 
 for message in st.session_state['message_list']:
     
-    
+    sender = ''
+    message_text = ''
+    st.chat_message(sender).write(message_text)
 
 if user_message:
     
