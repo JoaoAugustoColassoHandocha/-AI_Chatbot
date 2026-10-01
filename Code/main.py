@@ -10,6 +10,8 @@ Steps:
     
 Import library: pip install streamlit openai
 
+Run the program using the 'streamlit run' command in the Terminal.
+
 '''
 
 import streamlit as st
