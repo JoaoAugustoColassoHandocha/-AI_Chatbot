@@ -1,13 +1,13 @@
 '''
-Passos:
+Steps:
 
-1 - Título
-2 - Campo de mensagem
-3 - Quando o usuário enviar uma mensagem:
-    3.1 - Mostrar a mensagem na conversa
-    3.2 - Mandar a mensagem para a IA responder
-    3.3 - Mostrar a resposta da IA
+1 - Title
+2 - Message input field
+3 - When the user sends a message:
+    3.1 - Display the message in the conversation
+    3.2 - Send the message to the AI ​​for a response
+    3.3 - Display the AI's response
     
-Importar biblioteca: pip install streamlit openai
+Import library: pip install streamlit openai
 
 '''
