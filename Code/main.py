@@ -10,7 +10,7 @@ Steps:
     
 Import library: pip install streamlit openai
 
-Run the program using the 'streamlit run' command in the Terminal.
+Run the program using the command 'streamlit run "FileName.py"' in the terminal.
 
 '''
 
