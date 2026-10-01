@@ -32,7 +32,8 @@ if user_message:
     
     ai_response = Ai_model.chat.completions.create(
         
-        messages = st.session_state['message_list']
+        messages = st.session_state['message_list'],
+        model = ''
         
     )
     st.chat_message('assistant').write(ai_response)
