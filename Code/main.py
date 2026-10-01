@@ -22,3 +22,5 @@ st.write('# AI CHATBOT')
 user_message = st.chat_input('Escreva sua mensagem aqui...')
 
 if user_message:
+    
+    st.chat_message()
