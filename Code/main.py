@@ -7,5 +7,7 @@ Passos:
     3.1 - Mostrar a mensagem na conversa
     3.2 - Mandar a mensagem para a IA responder
     3.3 - Mostrar a resposta da IA
+    
+Importar biblioteca: pip install streamlit openai
 
 '''
