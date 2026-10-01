@@ -6,6 +6,7 @@ Run the program using the command 'streamlit run "FileName.py"' in the terminal.
 '''
 
 import streamlit as st
+from openai import OpenAI
 
 st.write('# AI CHATBOT')
 
