@@ -10,6 +10,10 @@ import openai as op
 
 st.write('# AI CHATBOT')
 
+if not 'message_list' in st.session_state:
+    
+    st.session_state['message_list'] = []
+
 user_message = st.chat_input('Escreva sua mensagem aqui...')
 
 if user_message:
