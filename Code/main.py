@@ -17,4 +17,4 @@ import openai as op
 
 st.write('# AI CHATBOT')
 
-st.chat_input()
+st.chat_input('Escreva sua mensagem aqui...')
