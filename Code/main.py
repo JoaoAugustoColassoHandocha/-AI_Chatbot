@@ -8,6 +8,8 @@ Run the program using the command 'streamlit run "FileName.py"' in the terminal.
 import streamlit as st
 from openai import OpenAI
 
+Ai_model = OpenAI(api_key = 'sua_chave_aqui')
+
 st.write('# AI CHATBOT')
 
 if not 'message_list' in st.session_state:
