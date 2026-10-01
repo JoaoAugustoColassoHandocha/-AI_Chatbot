@@ -3,12 +3,16 @@ Import library: pip install streamlit openai
 
 Run the program using the command 'streamlit run "FileName.py"' in the terminal.
 
+token_key: Generate and insert the AI ​​token to be used.
+
+base_url: Enter the AI ​​base_url to be used.
+
 '''
 
 import streamlit as st
 from openai import OpenAI
 
-Ai_model = OpenAI(api_key = 'sua_chave_aqui')
+Ai_model = OpenAI(api_key = 'token_key', base_url = 'base_url')
 
 st.write('# AI CHATBOT')
 
@@ -37,7 +41,7 @@ if user_message:
         
     )
     
-    ai_response = 'texto'
+    ai_response = model_response.choices[0].message.ontent
     
     st.chat_message('assistant').write(ai_response)
     response = {'role': 'assistant', 'content': ai_response}
